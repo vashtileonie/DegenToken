@@ -19,6 +19,17 @@ This is the `DegenToken` smart contract for Degen Gaming on the Avalanche blockc
 - Dragon Slayer Sword = 200 tokens
 - Phoenix Feather = 250 tokens
 
+## Functions
+
+- **constructor**: Initializes the contract with a predefined inventory of in-game store items.
+- **transferTokens**: Allows users to transfer tokens to another address.
+- **burnTokens**: Allows users to burn a specified amount of their tokens.
+- **mint**: Allows the contract owner to mint new tokens to a specified address.
+- **decimals**: Sets the token to have zero decimal places.
+- **getBalance**: Returns the token balance of the caller.
+- **listStoreItems**: Lists all the available items in the in-game store.
+- **redeemTokens**: Allows users to redeem tokens for in-game store items.
+
 ## Prerequisites
 
 - **MetaMask**: You should have an existing wallet already within the Fuji C-Chain Network. This extension should be enabled in your browser.
@@ -100,7 +111,7 @@ This is the `DegenToken` smart contract for Degen Gaming on the Avalanche blockc
 
 ## Credits
 
-This project was made with the help of the starter template from Metacrafters.
+This project was done with the help of the starter template from Metacrafters.
 
 ## Author
 Vashti Bauson
