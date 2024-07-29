@@ -115,3 +115,6 @@ This project was done with the help of the starter template from Metacrafters.
 
 ## Author
 Vashti Bauson
+
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for details
